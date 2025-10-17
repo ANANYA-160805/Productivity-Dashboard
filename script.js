@@ -269,7 +269,8 @@ function dailyGoals() {
 dailyGoals();
 
 function WeatherFunctionality() {
-  var apiKey = "ed341029b78848718b5141749251610";
+  // removed api key due to security reasons \\
+  var apiKey = null;
   var city = "Bhopal";
 
   let header1city = document.querySelector(".header1 h4");
